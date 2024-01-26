@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script extends previous exercise command and displays line containing the bash word, thus allowing you to easily get the Process Identification number  of your Bash process
+# You should not use pgrep
+# shellcheck disable=SC2009
+
+./1-list_your_processes | grep "bash"

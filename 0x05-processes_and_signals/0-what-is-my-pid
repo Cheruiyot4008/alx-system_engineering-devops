@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
- # This script displays its  process identificatin number.
-echo $$ 
+# This script  displays its PID.
+
+echo $$

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script displays the Process identification number, along with process name of processes containing the word bash
+# The script does not  use p s
+
+pgrep -l bash
